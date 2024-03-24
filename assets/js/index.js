@@ -38,13 +38,13 @@ const venta = [
 
     },
     {
-        src:"https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg",
-        nombre: "Penthouse de lujo con terraza panorámica",
-        descripcion:"Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares",
-        ubicacion:"567 Skyline Avenue, Skyview City, CA 56789",
+        src:"./assets/img/6.jpg",
+        nombre: "Cabaña en la nieve",
+        descripcion:"Ubicada en las montañas, con acceso a supermercados y grandes comodidades",
+        ubicacion:"123 Frosty Lane Snowville, Montana 55555",
         habitaciones:"3",
-        baños:"3",
-        costo:"4.500",
+        baños:"2",
+        costo:"3.500",
         smoke:false,
         pets:true
 
@@ -59,6 +59,18 @@ const venta = [
         costo:"5.500",
         smoke:false,
         pets:false
+
+    },
+    {
+        src:"./assets/img/5.jpg",
+        nombre: "Casa familiar con jardín",
+        descripcion:"Casa de dos pisos con un amplio estacionamiento, patio y perfecta para una pareja e hijos",
+        ubicacion:"123 Ocean Drive, Miami Beach, FL 33139,",
+        habitaciones:"4",
+        baños:"3",
+        costo:"4.000",
+        smoke:true,
+        pets:true
 
     },
 

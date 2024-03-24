@@ -49,6 +49,18 @@ const venta = [
         pets:true
 
     },
+    {
+        src:"./assets/img/2.jpg",
+        nombre: "Casa de dos pisos con garage",
+        descripcion:"Esta hermosa casa se encuentra en un barrio muy seguro y centrico, perfecta para una familia",
+        ubicacion:"123 Ocean Drive, Miami Beach, FL 33139,",
+        habitaciones:"5",
+        baños:"5",
+        costo:"5.500",
+        smoke:false,
+        pets:false
+
+    },
 
 ]
 
@@ -100,6 +112,30 @@ const alquiler = [
         costo:"2.200",
         smoke:false,
         pets:false
+
+    },
+    {
+        src:"./assets/img/10.jpg",
+        nombre: "Carpa mediana",
+        descripcion:"Capacidad para dos personas en patio trasero de casa en  barrio acomodado",
+        ubicacion:"456 Hollywood Blvd, Los Angeles, CA 90028",
+        habitaciones:"0",
+        baños:"1",
+        costo:"200",
+        smoke:false,
+        pets:false
+
+    },
+    {
+        src:"./assets/img/9.jpg",
+        nombre: "Motorhome",
+        descripcion:"Capacidad para 4 personas y disponible para su uso dentro de todo el país",
+        ubicacion:"789 Pacific Beach Ave,San Diego, CA 92109",
+        habitaciones:"1",
+        baños:"2",
+        costo:"1.200",
+        smoke:true,
+        pets:true
 
     }
 
@@ -184,7 +220,6 @@ if (pathname.includes("propiedades_venta.html")) {
     venta.forEach(({src, nombre,  descripcion, ubicacion, habitaciones,baños, costo, smoke, pets }) => ventas2_container.innerHTML += componenteCard(src, nombre, descripcion, ubicacion, habitaciones, baños, costo, smoke, pets))
 
 
-
 } 
 if (pathname.includes("propiedades_alquiler.html")) {
 
@@ -196,5 +231,7 @@ if (pathname.includes("propiedades_alquiler.html")) {
     // alquiler
 
     alquiler.forEach(({ src,nombre,  descripcion, ubicacion, habitaciones,baños, costo, smoke, pets }) => alquiler3_container.innerHTML += componenteCard(src, nombre, descripcion, ubicacion, habitaciones,baños, costo, smoke, pets))
+
+  
 
 } 
